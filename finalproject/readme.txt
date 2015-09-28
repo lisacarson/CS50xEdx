@@ -1,0 +1,1 @@
+This project is a travel website that allows you to view your travel using all the different modes of transportation. The user enters the site via finalproject/.Once there the user either will login or create an account. From there they can search from a point of origin to a destination.

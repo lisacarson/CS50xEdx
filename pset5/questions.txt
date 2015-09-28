@@ -1,0 +1,19 @@
+0.  It is a lung disease also known as silicosis.
+
+1.  Returns resource usage measures for RUSAGE_SELF, RUSAGE_CHILDREN, AND RUSAGE_THREAD.
+
+2.  16
+
+3.  It takes less time when you pass by reference then when you pass by value.
+
+4.  The for loop initializes int c to get the next character in the function and to keep getting the next function while the file is not at the end of the file. If it is an alphabetical character or an apostrophe it appends the character to the end of word( adds an index to the array). At this point it also ignores words that are larger than the index and prepares for a new word by setting the index to zero. If the character happes to be a numerical digit then the program will ignore the digit and move to the next character. The final step is when the whole word has been encountered.The program terminates the word with a null terminator, updates the word count, spellchecks, sets time and then prepares for a new word.  
+  
+5.  fscanf reads a string while fgetc reads a character. By using fgetc you can account for the different characters that could be encountered in a string such as uppercase, digits nonaplha characters.
+
+6.  They are const so that the value of the arguement is not changed.
+7.  I used a hashtable that divided the words alphabetically from a to z. The linked list were not sorted. All the new words were pushed in front of the old words.
+8.  It took over 13 seconds.
+
+9.I did not make any changes to improve performance.
+  
+10. My code definitely has bottlenecks that I would have like to gave worked through.

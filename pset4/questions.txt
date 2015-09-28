@@ -1,0 +1,51 @@
+Lisa Carson
+cs50
+
+
+
+
+0.  GIF 8 bits or 256 colors
+    BMP 32 bit or > 4 billion
+    JPEG 24 bit or 16 million
+    PNG 24 bit or 16 million
+    
+1.  GIF supports animation.
+
+2.  Lossless compression is where the data remains as the original. Lossy compression is when an approximation of data is reconstructed. 
+
+3.  JPEG is lossy-compressed.
+
+4.  The first character in the file name is modified so that it signals that it has been deleted. Then the file's FAT clusters are moved and the file data is never touched.
+
+5.  You can use disk sanitizers and declassifiers, and slack space sanitizers to help ensure your files will not be recovered.
+
+6.  Stdint.h is a header that specifies "several new integer types to enhance the protability of programs." (Wikipedia)
+
+7.  UINT8_t represents an unsigned INT8(an 8-bit signed integer). 
+    UINT32_t represents an unsigned INT32(a 32-bit signed integer). 
+    INT32_t represents a 32 bit signed integer.
+    UNINT16_t represents an unsigned INT16 (a 16 bit signed integer).
+    
+8.  Byte - 1 byte
+    Dword - 4 bytes
+    Long - 4 bytes
+    Word - 2 bytes
+
+9.  The first two bites are BM in ASCII
+
+10. bfSize is the size of the file in bytes. biSize is the size of the structure in bytes.
+
+11. When biHeight is negartive then "the bitmap is a top-down DIB and its origin is in the upper-left corner"(microsoft.com)
+
+12. biBitCount specifies the BMP;s color depth.
+
+13. It might return NULL because it was not able to open outfile in write mode.
+
+14. It is 1 because we only want to read one element.
+
+15. It assigns 000000.
+
+16. Allows you to change the location of the file pointer by an amount of bytes.
+
+17. In fseek SEEK_CUR means the current file position.
+18. Rob Bowden
